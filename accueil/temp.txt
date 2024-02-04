@@ -1,0 +1,80 @@
+<main>
+  <div id="main_info_container">
+    <h1 id="main_title">Hackez, compétez, triomphez.</h1>
+    <p id="main_desc">
+      HackMasters Academy a été créée pour innover dans le domaine des écoles de Hacking. Nous formons de jeunes passionnés en cybersécurité au hacking éthique. En partenariat avec des entreprises, principalement implantées dans la Silicon Valley, nous travaillons ensemble pour découvrir de nouvelles failles de sécurité, une approche dynamique où ce sont les élèves qui sont à la tête de ces initiatives. C'est un système gagnant-gagnant, où les entreprises garantissent aux élèves des opportunités d'embauche à la fin de leur formation. Notre école est située à Tokyo, au Japon, et accueille des étudiants du monde entier avec des cours entièrement dispensés en anglais. À Tokyo, HackMasters Academy est en tête des formations en cybersécurité, rivalisant avec Cybershield, CodeGuardians et TechSecureX. Cependant, nos méthodes de travail sont innovantes et suivent les dernières technologies.
+
+      Nous accueillons également des hackers de renommée mondiale qui proposent des démonstrations en direct, formant ainsi une équipe pédagogique de classe mondiale. Cependant, les élèves restent au cœur de la formation, s'entraident et apprennent. Nos programmes de formation sont flexibles, alternant entre des sessions en présentiel et à distance, et durent de 3 à 5 ans. Les matières enseignées comprennent la programmation, le développement de logiciels, les systèmes d'exploitation, les architectures, les réseaux, ainsi que des cours de droit traitant des vides juridiques dans l'éthique du hacking.
+
+      Notre formation est rythmée par différentes compétitions d'éthique du hacking, auxquelles nos élèves participent en partenariat avec des entreprises de la Silicon Valley. Des prix en espèces importants ainsi que des opportunités d'emploi chez des entreprises telles que Google, Meta et OpenAI sont à la clé.
+
+      Enfin, une section jeux vidéo propose du modding, du développement de jeux vidéo, du hacking de jeux vidéo et la participation à des événements d'e-sport.
+    </p>
+  </div>
+
+  <div id="partners_container">
+    <h2 id="partners_title">
+      Nous sommes partenaires avec des entreprises
+      <span class="text_special_color">innovantes :</span>
+    </h2>
+
+    <div id="partners_logo_container">
+      <a href="http://www.google.com" target="_blank">
+        <img src="./assets/google.png" class="partner_logo" alt="Google" />
+      </a>
+      <a href="http://www.meta.com" target="_blank">
+        <img src="./assets/meta.svg" class="partner_logo" alt="Meta" />
+      </a>
+      <a href="http://www.openai.com" target="_blank">
+        <img src="./assets/openai.png" class="partner_logo" alt="Open AI" />
+      </a>
+      <a href="http://www.intel.com" target="_blank">
+        <img src="./assets/Intel.png" class="partner_logo" alt="Intel" />
+      </a>
+    </div>
+  </div>
+
+  <iframe
+    id="youtube_player"
+    src="https://www.youtube.com/embed/FYXrb1D1xvQ?si=kx3soUy8Z2Fdt9e7&amp&mute=1&start=17;controls=0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+
+  <div id="text_arg_main_container">
+    <article>
+      <h2>Paragraphe 1</h2>
+      <p>
+        [Remplacez ce texte par votre contenu spécifique du paragraphe 1.]
+      </p>
+    </article>
+
+    <article>
+      <h2>Paragraphe 2</h2>
+      <p>
+        [Remplacez ce texte par votre contenu spécifique du paragraphe 2.]
+      </p>
+    </article>
+
+    <article>
+      <h2>Paragraphe 3</h2>
+      <p>
+        [Remplacez ce texte par votre contenu spécifique du paragraphe 3.]
+      </p>
+    </article>
+  </div>
+
+  <footer>
+    <a href="./accueil.html" class="logo_title">
+      2023, Hack Masters Academy
+    </a>
+    <p>Fait par Billal, Francesca et Cylian</p>
+    <p>Document de présentation :</p>
+    <span>
+      <a href="../documents/presentation.pdf" target="_blank">PDF</a>
+      <a href="../documents/presentation.docx" target="_blank">DOCX</a>
+    </span>
+  </footer>
+</main>

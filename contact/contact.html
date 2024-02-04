@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./contact.css">
+        <title>Hack Masters Academy</title>
+        <link rel="icon" type="image/x-icon" href="../assets/logo.ico">
+    </head>
+    <body>
+        <div class="cursor">
+            <div class="cursor-inner cursor-inner--circle"></div>
+            <div class="cursor-inner cursor-inner--dot"></div>
+        </div>
+        <div class="bg" id="bg_1"></div>
+        <div class="bg" id="bg_2"></div>
+        <!--<div class="bg" id="bg_3"></div>
+ -->
+        <div id="nav_container">
+            <a href="../accueil/accueil.html" class="logo_title">
+                ./Hack Masters Academy
+            </a>
+            <nav id="nav_bar">
+                <a href="../accueil/accueil.html">
+                    <img src="../assets/logo.svg" id="logo" alt="./Hack Masters Academy">
+                </a>
+                <section>
+                    <a class="nav_bar_section" href="../accueil/accueil.html">Accueil</a>
+                    <a class="nav_bar_section" href="../formations/formations.html">Formations</a>
+                    <a class="nav_bar_section" href="./contact.html">Contact</a>
+                </section>
+                <a href="../contact/contact.html">
+                    <button type="button" id="signup_button">
+                        Rejoindre
+                    </button>
+                </a>
+            </nav>
+        </div>
+        <div id="main_container">
+            <div class="fullscreen-container">
+                <form id="all-pages">
+                    <section class="page" id="contact_container">
+                        <address>
+                            <h1 id="main_title">Nous contacter</h1>
+                            <div id="contact_details_container">
+                                <div class="detais_sub_container">
+                                    <h3 class="detail_item_title">Email</h3>
+                                    <a class="detail_item_content" href="mailto:contact@hackmaster-ac.com">contact@hackmaster-ac.com</a>
+                                </div>
+                                <div class="detais_sub_container">
+                                    <h3 class="detail_item_title">Télephone</h3>
+                                    <a class="detail_item_content" href="tel:++8140-558-7116 ">+81 40-558-7116</a>
+                                </div>
+                                <div class="detais_sub_container">
+                                    <h3 class="detail_item_title">Adresse</h3>
+                                    <a class="detail_item_content" href="https://maps.app.goo.gl/iaJJz7itdSCXytu87">
+                                        Hack Masters Academy,
+                                Nx Shinjuku Building, 
+                                5-chōme-34-7 Sendagaya,
+                                Shibuya City,
+                                Tokyo 151-0051,
+                                Japon
+                                    </a>
+                                </div>
+                            </div>
+                            <button type="button" id="next_button_contact" class="next_button">Suivant</button>
+                        </address>
+                        <div id="map_container">
+                            <iframe
+                                id="map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.9800788098435!2d139.70280771303675!3d35.68793174522281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cc5306aaaab%3A0x40d69bda05929fd6!2zSmFwb24sIOOAkjE1MS0wMDUxIFRva3lvLCBTaGlidXlhIENpdHksIFNlbmRhZ2F5YSwgNS1jaMWNbWXiiJIzNOKIkjcsIE54IFNoaW5qdWt1IEJ1aWxkaW5nLCAxMEY!5e0!3m2!1sfr!2sfr!4v1700577738585!5m2!1sfr!2sfr"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </section>
+                    <section class="page">
+                        <!--Ajouter du texte sur une image afin de réduire la taille de la carte +
+                             demandé dans le cahier des charges-->
+                        <h1 id="select_formation_title">Selectionnez une formation</h1>
+                        <div id="formations_container">
+                            <label class="formation_carte">
+                                <input
+                                    type="radio"
+                                    name="formation"
+                                    value="1"
+                                    class="card-input-element"
+                                >
+                                <div class="formation_image_container">
+                                    <img class="formation_image" src="../assets/bachelor.png">
+                                    <h2 class="formation_title">Bachelor</h2>
+                                </div>
+                                <p class="formation_desc">
+                                    Devenez un expert en cybersécurité en 3 ans, 
+                                    vous participerez à des hackatons et des projets avec nos partenaires.
+                                    Les matières enseignées sont :
+                                    programmation, systèmes
+                                    d’exploitations, architectures, réseau
+                                  </p>
+                            </label>
+                            <label class="formation_carte">
+                                <input
+                                    type="radio"
+                                    name="formation"
+                                    value="2"
+                                    class="card-input-element"
+                                >
+                                <div class="formation_image_container">
+                                    <img class="formation_image" src="../assets/hackaton.jpg">
+                                    <h2 class="formation_title">Cycle ingénieur</h2>
+                                </div>
+                                <p class="formation_desc">
+                                    Devenez un expert en cybersécurité en 5 ans,
+              vous participerez à des hackatons de haut niveau où vous affronterez les meilleurs.
+              Les matières enseignées sont : 
+            programmation, systèmes
+            d’exploitations, architectures, reverse-engineering,
+            réseaux, droit et éthique.</p>
+                            </label>
+                            <label class="formation_carte">
+                                <input
+                                    type="radio"
+                                    name="formation"
+                                    value="3"
+                                    class="card-input-element"
+                                >
+                                <div class="formation_image_container">
+                                    <img class="formation_image" src="../assets/creative.jpg">
+                                    <h2 class="formation_title">Cycle ingénieur - Créatif</h2>
+                                </div>
+                                <p class="formation_desc">
+                                    Devenez un expert en cybersécurité en 5 ans,
+              exprimez votre créativité et challengez les meilleurs.
+              Les matières enseignées sont : 
+              programmation, systèmes
+              d’exploitations, cryptographie, développement logiciel, architectures, reverse-engineering,
+              réseaux, droit et éthique.</p>
+                            </label>
+                        </section>
+                        <section class="page input_page">
+                            <div class="input_element_container">
+                                <label class="input_element_text_label">Entrez votre
+                                    <span class="text_special_color">prénom.</span>
+                                </label>
+                                <input class="input_element_text" type="text" name="prenom">
+                            </div>
+                            <button type="button" class="next_button">Suivant</button>
+                        </section>
+                        <section class="page input_page">
+                            <div class="input_element_container">
+                                <label class="input_element_text_label">Entrez votre
+                                    <span class="text_special_color">nom.</span>
+                                </label>
+                                <input class="input_element_text" type="text" name="nom">
+                            </div>
+                            <button type="button" class="next_button">Suivant</button>
+                        </section>
+                        <section class="page input_page">
+                            <div class="input_element_container">
+                                <label class="input_element_text_label">Entrez votre
+                                    <span class="text_special_color">adresse mail.</span>
+                                </label>
+                            </label>
+                            <input class="input_element_text" type="text" name="email">
+                        </div>
+                        <button type="button" class="next_button">Suivant</button>
+                    </section>
+                    <section class="page input_page">
+                        <div class="input_element_container">
+                            <label class="input_element_text_label">Entrez votre
+                                <span class="text_special_color">numéro de téléphone.</span>
+                            </label>
+                            <input class="input_element_text" type="text" name="tel">
+                        </div>
+                        <button type="button" class="next_button">Suivant</button>
+                    </section>
+                    <section class="page input_page">
+                        <div class="input_element_container">
+                            <label class="input_element_text_label">Entrez votre
+                                <span class="text_special_color">pays de résidence.</span>
+                            </label>
+                            <input class="input_element_text" type="text" name="pays_residence">
+                        </div>
+                        <button type="button" class="next_button">Enregistrer</button>
+                    </section>
+                    <section class="page input_page">
+                        <div class="input_element_container">
+                            <label class="input_element_text_label">Laissez-nous un
+                                <span class="text_special_color">message.</span>
+                            </label>
+                            <textarea id="input_element_text" name="message" rows="4" cols="50"></textarea>
+                        </div>
+                        <button type="button" class="next_button">Enregistrer</button>
+                    </section>
+                    <section class="page">
+                        <div>
+                            <h3 id="final_title">Demande enregistrée</h3>
+                        </div>
+                        <img src="./assets/mr_robot.gif">
+                        <footer>
+                            <a href="../accueil/accueil.html" class="logo_title">
+                                2023, Hack Masters Academy
+                                </a> 
+                            <p>Fait par Billal, Francesca et Cylian</p>
+                            <p>Document de présentation :</p>
+                            <span>
+                                <a href="../documents/presentation.pdf" target="_blank">PDF</a> <a href="../documents/presentation.docx" target="_blank">DOCX</a> </span>
+                            
+                    
+                    
+                        </footer>
+                    </section>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    
+    
+</div>
+<script src="../cursor.js"></script>
+<script src="./full_screen_form.js"></script>
+
+</body>
+</html>

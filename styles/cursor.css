@@ -1,0 +1,24 @@
+
+.cursor-inner {
+	z-index: 99999999;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+  left: 0;
+	border-radius: 50%;
+  mix-blend-mode: difference;
+}
+
+.cursor-inner--dot {
+    z-index: 99999999;
+
+	width: 14px;
+	height: 14px;
+  background-color: #8171be;
+}
+
+.cursor-inner--circle {
+	width: 50px;
+	height: 50px;
+  border: 3px solid #8e7fce;
+}

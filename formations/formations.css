@@ -1,0 +1,111 @@
+@import url("../styles/struct.css");
+@import url("../styles/fonts.css");
+@import url("../styles/cursor.css");
+@import url("../styles/bg.css");
+@import url("../styles/nav.css");
+@import url("../styles/footer.css");
+@import url("../styles/formation_card.css");
+
+#bg_3{
+    margin-top: 77vh;
+}
+
+
+
+main{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+#main_title {
+    width: calc(4.5vw * 8);
+    animation: typing 1.5s steps(23, end), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: SpaceGrotesk-Medium;
+    font-size: 4.5vw;
+    color: #fff;
+    align-self: start;
+    margin-left: 5%;
+    
+}
+
+@keyframes typing {
+    from {
+    width: 0
+}
+}
+
+@keyframes blink {
+50% {
+    border-color: transparent;
+}
+}
+
+
+
+#main_info_container{
+    width: 65%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+    
+}
+
+
+@media (max-width : 1000px) {
+    main{
+        width: 90%;
+    }
+
+    #main_info_container{
+        width: 100%;
+    }
+
+    #main_title{
+        font-size: 6vw;
+        width: calc(4.5vw * 20);
+
+    }
+}
+
+
+
+
+
+@media (max-width : 1000px) {
+    
+    #formations_container{
+
+        gap:10px;
+        width: 100%;
+        
+
+    }
+
+    .formation_carte{
+        min-width: 40%;
+        margin-bottom: 40px;
+    }
+    
+
+}
+
+
+
+@media (max-width : 1200px) {
+
+    #formations_container{
+        gap:10px;
+    }
+}

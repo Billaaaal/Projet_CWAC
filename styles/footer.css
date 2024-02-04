@@ -1,0 +1,29 @@
+footer {
+    
+    width: 95%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #ffffff0f;
+    backdrop-filter: blur(10px);    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+footer a, footer p{
+    color:#fff;
+    font-family: SpaceGrotesk-Regular;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+
+footer a:hover{
+    color: #8171be;
+
+}

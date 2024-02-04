@@ -1,0 +1,117 @@
+
+#formations_container{
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+
+#formations_container:hover .formation_carte:not(:hover) {
+    filter: blur(4px); 
+}
+
+
+.formation_carte{
+    /*  https://css.glass
+    
+    */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.4px);
+    -webkit-backdrop-filter: blur(9.4px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    
+    flex: 1;
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    transition: transform .5s;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.formation_title, .formation_additional_info, .formation_desc, .formation_details{
+    
+    margin: 0; 
+    padding: 0;
+}
+
+
+.formation_title{
+    font-size: 2rem;
+    color: #fff;
+    font-family: SpaceGrotesk-Medium;
+    align-self: start;
+    margin-left: 5%;
+}
+
+
+.formation_image{
+    width: 100%;
+    border-radius: 16px;
+    opacity: 0.9;
+}
+
+
+.formation_carte:hover{
+    transform: scale(1.10);
+
+}
+
+
+.formation_details{
+    width: 90%;
+    
+}
+
+
+
+.formation_button{
+    margin-bottom: 20px;
+    background: var(--gradient-main, linear-gradient(225deg, #9f71d3 14.89%, #7c48c0 85.85%));
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 0px;
+    border: none;
+    width: 130px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    font-family: DarkerGrotesque-Medium;
+    
+}
+
+
+.formation_additional_info{
+color:#fff;
+font-family: DarkerGrotesque-Medium;
+font-size: 1.6rem;
+
+}
+
+
+.formation_desc{
+    color:#fff;
+    font-family: DarkerGrotesque-Medium;
+    font-size: 1.4rem;
+
+}
+
+.formation_button:hover{
+    background: var(--gradient-main, linear-gradient(225deg, #9683df 14.89%, #643d97 85.85%));
+}

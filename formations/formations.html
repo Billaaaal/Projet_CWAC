@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./formations.css" />
+    <title>Hack Masters Academy</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.ico" />
+  </head>
+  <body>
+    <div class="cursor">
+      <div class="cursor-inner cursor-inner--circle"></div>
+      <!--Ajouter la référence-->
+      <div class="cursor-inner cursor-inner--dot"></div>
+    </div>
+    <div class="bg" id="bg_1"></div>
+    <div class="bg" id="bg_2"></div>
+    <div class="bg" id="bg_3"></div>
+    <div id="nav_container">
+      <a href="../accueil/accueil.html" class="logo_title">
+        ./Hack Masters Academy
+      </a>
+      <nav id="nav_bar">
+        <a href="../accueil/accueil.html">
+          <img
+            src="../assets/logo.svg"
+            id="logo"
+            alt="./Hack Masters Academy"
+          />
+        </a>
+        <section>
+          <a class="nav_bar_section" href="../accueil/accueil.html">Accueil</a>
+          <a class="nav_bar_section" href="./formations.html">Formations</a>
+          <a class="nav_bar_section" href="../contact/contact.html">Contact</a>
+        </section>
+        <a href="../contact/contact.html">
+          <button id="signup_button">Rejoindre</button>
+        </a>
+      </nav>
+    </div>
+    <main>
+      <h1 id="main_title">Nos formations</h1>
+      <div id="formations_container">
+        <div class="formation_carte">
+          <img class="formation_image" src="../assets/bachelor.png" />
+          <h2 class="formation_title">Bachelor</h2>
+          <article class="formation_details">
+            <p class="formation_desc">
+              Devenez un expert en cybersécurité en 3 ans, vous participerez à
+              des hackatons et des projets avec nos partenaires. Les matières
+              enseignées sont : programmation, systèmes d’exploitations,
+              architectures, réseau
+            </p>
+            <p class="formation_additional_info">Durée: 3 ans</p>
+            <p class="formation_additional_info">Pré-requis : BAC</p>
+            <p class="formation_additional_info">Prix : 4499€</p>
+          </article>
+          <button
+            class="formation_button"
+            onclick="location.href='../contact/contact.html#select-formation'"
+            type="button"
+          >
+            Rejoindre
+          </button>
+        </div>
+        <section class="formation_carte">
+          <img class="formation_image" src="../assets/hackaton.jpg" />
+          <h2 class="formation_title">Cycle ingénieur</h2>
+          <article class="formation_details">
+            <p class="formation_desc">
+              Devenez un expert en cybersécurité en 5 ans, vous participerez à
+              des hackatons de haut niveau où vous affronterez les meilleurs.
+              Les matières enseignées sont : programmation, systèmes
+              d’exploitations, architectures, reverse-engineering, réseaux,
+              droit et éthique.
+            </p>
+            <p class="formation_additional_info">Durée: 5 ans</p>
+            <p class="formation_additional_info">Pré-requis : BAC</p>
+            <p class="formation_additional_info">Prix : 6999€/an</p>
+          </article>
+          <button
+            class="formation_button"
+            onclick="location.href='../contact/contact.html#select-formation'"
+            type="button"
+          >
+            Rejoindre
+          </button>
+        </section>
+        <section class="formation_carte">
+          <img class="formation_image" src="../assets/creative.jpg" />
+          <h2 class="formation_title">Cycle ingénieur - creatif</h2>
+          <article class="formation_details">
+            <p class="formation_desc">
+              Devenez un expert en cybersécurité en 5 ans, exprimez votre
+              créativité et challengez les meilleurs. Les matières enseignées
+              sont : programmation, systèmes d’exploitations, cryptographie,
+              développement logiciel, architectures, reverse-engineering,
+              réseaux, droit et éthique.
+            </p>
+            <p class="formation_additional_info">Durée: 5 ans</p>
+            <p class="formation_additional_info">Pré-requis : BAC</p>
+            <p class="formation_additional_info">Prix : 7999€</p>
+          </article>
+          <button
+            class="formation_button"
+            onclick="location.href='../contact/contact.html#select-formation'"
+            type="button"
+          >
+            Rejoindre
+          </button>
+        </section>
+      </div>
+      <footer>
+        <a href="../accueil/accueil.html" class="logo_title">
+          2023, Hack Masters Academy
+        </a>
+        <p>Fait par Billal, Francesca et Cylian</p>
+        <p>Document de présentation :</p>
+        <span>
+          <a href="../documents/presentation.pdf" target="_blank">PDF</a>
+          <a href="../documents/presentation.docx" target="_blank">DOCX</a>
+        </span>
+      </footer>
+    </main>
+    <script src="../cursor.js"></script>
+  </body>
+</html>
